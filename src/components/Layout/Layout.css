@@ -281,17 +281,13 @@
     .nav-links {
         position: fixed;
         top: 60px;
-        left: 0;
-        right: 0;
-        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-        flex-direction: column;
-        padding: 1rem;
-        gap: 0.5rem;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: white;
+        border-top: 1px solid #e2e8f0;
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-links.mobile-open {
