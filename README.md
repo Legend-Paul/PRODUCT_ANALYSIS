@@ -23,7 +23,6 @@ A modern, responsive React web application for comprehensive product performance
 - **Product Comparison:** Easy switching between different products for analysis.
 
 ---
-
 ## 🎨 Design Features
 - **Modern UI:** Clean, professional interface with gradient accents.
 - **Fully Responsive:** Optimized for desktop, tablet, and mobile devices.
@@ -50,5 +49,7 @@ A modern, responsive React web application for comprehensive product performance
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/product-analysis-dashboard.git
+   git clone https://github.com/Legend-Paul/PRODUCT_ANALYSIS.git
    cd product-analysis-dashboard
+   npm install
+   npm run dev
